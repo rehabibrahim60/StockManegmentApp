@@ -1,6 +1,6 @@
-from immu_pro import products , add_product ,update_product , delete_product , get_all_products
-from immu_order import orders , create_order , delete_order , get_orders  , default_stock_updater
-from reporting import generate_report
+from functional.product import products , add_product ,update_product , delete_product , get_all_products
+from functional.order import orders , create_order , delete_order , get_orders  , default_stock_updater
+from functional.reporting import generate_report
 
 # ======================== Menus ========================
 N_products = products
